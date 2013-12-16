@@ -57,7 +57,7 @@ static struct scalable scalable[] __initdata = {
 		.l2cpmr_iaddr = 0x4501,
 		.sec_clk_sel = 2,
 #ifdef CONFIG_CPU_OVERCLOCK
-		.vreg[VREG_CORE] = { "krait0",     1140000 },
+		.vreg[VREG_CORE] = { "krait0",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait0",     1100000 },
 #endif
@@ -70,7 +70,7 @@ static struct scalable scalable[] __initdata = {
 		.l2cpmr_iaddr = 0x5501,
 		.sec_clk_sel = 2,
 #ifdef CONFIG_CPU_OVERCLOCK
-		.vreg[VREG_CORE] = { "krait1",     1140000 },
+		.vreg[VREG_CORE] = { "krait1",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait1",     1100000 },
 #endif
@@ -83,7 +83,7 @@ static struct scalable scalable[] __initdata = {
 		.l2cpmr_iaddr = 0x6501,
 		.sec_clk_sel = 2,
 #ifdef CONFIG_CPU_OVERCLOCK
-		.vreg[VREG_CORE] = { "krait2",     1140000 },
+		.vreg[VREG_CORE] = { "krait2",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait2",     1100000 },
 #endif
@@ -96,7 +96,7 @@ static struct scalable scalable[] __initdata = {
 		.l2cpmr_iaddr = 0x7501,
 		.sec_clk_sel = 2,
 #ifdef CONFIG_CPU_OVERCLOCK
-		.vreg[VREG_CORE] = { "krait3",     1140000 },
+		.vreg[VREG_CORE] = { "krait3",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait3",     1100000 },
 #endif
